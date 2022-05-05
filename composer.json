@@ -1,5 +1,7 @@
 {
-    "name": "felipe/text",
+    "name": "felipe/curso-composer-platzi",
+    "description": "Curso de composer en Platzi",
+    "type": "project",
     "autoload": {
         "psr-4": {
             "Text\\": "src/"
@@ -8,10 +10,18 @@
             "src/helpers.php"
         ]
     },
-    "require-dev": {
-        "phpunit/phpunit": "^9.5"
-    },
     "require": {
-        "nesbot/carbon": "^2.58"
-    }
+        "nesbot/carbon": "2.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrés Perdomo",
+            "email": "alvarado0925@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
