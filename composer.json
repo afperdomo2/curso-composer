@@ -8,6 +8,10 @@
         },
         "files": [
             "src/helpers.php"
+        ],
+        "classmap": [
+            "Database/seeders",
+            "Database/factories"
         ]
     },
     "require": {
